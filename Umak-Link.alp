@@ -3408,9 +3408,7 @@ return filtered.get(uniform_discr(0, filtered.size() - 1)).uniqueID;
 					</Points>
 					<IconOffset>20.0</IconOffset>
 					<Properties Source="1763265611160" Target="1763271486099" Trigger="condition">
-						<Action><![CDATA[traceln("Im claiming my item");
-Main main = ((Main)getEngine().getRoot());
-moveTo(main.claimArea);]]></Action>
+						<Action><![CDATA[traceln("Im claiming my item");]]></Action>
 						<Timeout Class="CodeUnitValue">
 							<Code><![CDATA[1]]></Code>
 							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
@@ -4097,7 +4095,7 @@ moveTo(main.claimArea);]]></Action>
 	<RelativeAccuracy>1.0E-5</RelativeAccuracy>
 	<TimeAccuracy>1.0E-5</TimeAccuracy>
 	<Frame>
-		<Width>1000</Width>
+		<Width>2000</Width>
 		<Height>600</Height>
 	</Frame>
 	<Database>
